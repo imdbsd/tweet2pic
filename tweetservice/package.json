@@ -5,7 +5,11 @@
   "main": "index.js",
   "author": "imdbsd",
   "license": "MIT",
+  "repository": "https://github.com/imdbsd/tweet2pic",
   "private": false,
+  "scripts": {
+    "start:dev": "ts-node-dev ./src/server.ts"
+  },
   "devDependencies": {
     "@types/express": "^4.17.11",
     "ts-node-dev": "^1.1.1",
